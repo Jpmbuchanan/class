@@ -7,7 +7,7 @@ require('dbconnect.php');
 if($_SERVER['REQUEST_METHOD']=='POST' || $_SESSION['login']==1){
     
 // mysql_escape_string terminates the content of the form box, protecting it from MySQL injection
-$uname = mysql_escape_string($_POST['namebox']);
+$uname =mysql_escape_string($_POST['namebox']);
 $password =mysql_escape_string($_POST['passwordbox']);
 
 
