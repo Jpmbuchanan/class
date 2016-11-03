@@ -8,7 +8,7 @@ if (false===$conn){
 }
 
 else {
-    echo 'database Connected';
-
+   //  echo 'Database Connected';
 }
+
 ?>
