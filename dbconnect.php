@@ -1,5 +1,5 @@
 <?php
-$conn = mysql_connect("localhost","Jpmbuchanan","");
+$conn = mysql_connect("localhost","jpmbuchanan","");
 mysql_select_db("c9"); 
 session_start();
 
